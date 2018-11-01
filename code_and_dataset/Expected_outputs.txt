@@ -1,0 +1,302 @@
+Experiment - 2 output
+
+Decision tree without early stopping 
+
+internal nodes             --->  425   
+leaves                     --->  426   
+tree depth                 --->  211   
+test accuracy              --->  69.2  
+train accuracy             --->  92.2  
+
+
+ Number of times an attribute is used as the splitting function
+
+attribute             --->  frequency
+crap                  --->  8  
+ridiculous            --->  7  
+pathetic              --->  7  
+terrible              --->  6  
+horrible              --->  6  
+badly                 --->  5  
+idiotic               --->  4  
+redeeming             --->  4  
+garbage               --->  4  
+rubbish               --->  4  
+
+
+ Early stopping with instances less than 50 
+
+internal nodes             --->  224   
+leaves                     --->  225   
+tree depth                 --->  211   
+test accuracy              --->  74.5  
+train accuracy             --->  84.9  
+
+
+ Number of times an attribute is used as the splitting function
+
+attribute             --->  frequency
+crap                  --->  2  
+stupid                --->  2  
+disgusting            --->  2  
+avoid                 --->  2  
+sucks                 --->  2  
+dud                   --->  2  
+poor                  --->  2  
+awful                 --->  2  
+terrible              --->  2  
+mullets               --->  1  
+
+
+ Early stopping with instances less than 70 
+
+internal nodes             --->  221   
+leaves                     --->  222   
+tree depth                 --->  211   
+test accuracy              --->  74.5  
+train accuracy             --->  84.9  
+
+
+ Number of times an attribute is used as the splitting function
+
+attribute             --->  frequency
+disgusting            --->  2  
+avoid                 --->  2  
+sucks                 --->  2  
+dud                   --->  2  
+poor                  --->  2  
+terrible              --->  2  
+mullets               --->  1  
+pile                  --->  1  
+doghi                 --->  1  
+masochist             --->  1  
+
+
+Early stopping with instances less than 100 
+
+internal nodes             --->  214   
+leaves                     --->  215   
+tree depth                 --->  211   
+test accuracy              --->  75.1  
+train accuracy             --->  84.8  
+
+
+ Number of times an attribute is used as the splitting function
+
+attribute             --->  frequency
+mullets               --->  1  
+doghi                 --->  1  
+masochist             --->  1  
+shallowly             --->  1  
+garbage               --->  1  
+asinine               --->  1  
+boring                --->  1  
+unconvincing          --->  1  
+crappy                --->  1  
+chuckled              --->  1  
+
+
+ Early stopping with instances less than 150 
+
+internal nodes             --->  211   
+leaves                     --->  212   
+tree depth                 --->  211   
+test accuracy              --->  75.1  
+train accuracy             --->  84.4  
+
+
+ Number of times an attribute is used as the splitting function
+
+attribute             --->  frequency
+mullets               --->  1  
+doghi                 --->  1  
+masochist             --->  1  
+shallowly             --->  1  
+garbage               --->  1  
+boring                --->  1  
+unconvincing          --->  1  
+crappy                --->  1  
+chuckled              --->  1  
+overdubs              --->  1  
+
+
+
+Early stopping with maximum depth upto 50 
+
+internal nodes   --->  251   
+leaves           --->  252   
+tree depth       --->  50    
+test accuracy    --->  69.7  
+train accuracy   --->  88.2  
+
+
+ Number of times an attribute is used as the splitting function
+
+attribute        --->  frequency
+crap             --->  8     
+ridiculous       --->  6     
+pathetic         --->  6     
+terrible         --->  6     
+horrible         --->  6     
+rubbish          --->  4     
+stupid           --->  4     
+worse            --->  4     
+poorly           --->  3     
+redeeming        --->  3  
+
+   
+
+============================================================================================================================================
+
+
+Experiment -3 (Noise Addition)
+
+
+Decision tree without any noise
+
+internal nodes   --->  425   
+leaves           --->  426   
+tree depth       --->  211   
+test accuracy    --->  69.2  
+train accuracy   --->  92.2  
+
+ 0.5% noise added to tree
+
+internal nodes   --->  427   
+leaves           --->  428   
+tree depth       --->  205   
+test accuracy    --->  69.1  
+train accuracy   --->  92.0  
+
+ 1% noise added to tree
+
+internal nodes   --->  417   
+leaves           --->  418   
+tree depth       --->  209   
+test accuracy    --->  69.2  
+train accuracy   --->  92.1  
+
+ 5% noise added to tree
+
+internal nodes   --->  432   
+leaves           --->  433   
+tree depth       --->  207   
+test accuracy    --->  68.6  
+train accuracy   --->  91.9  
+
+ 10% noise added to tree
+
+internal nodes   --->  451   
+leaves           --->  452   
+tree depth       --->  222   
+test accuracy    --->  68.9  
+train accuracy   --->  90.8  
+
+ 20% noise added to tree
+
+internal nodes   --->  463   
+leaves           --->  464   
+tree depth       --->  250   
+test accuracy    --->  68.0  
+train accuracy   --->  88.8 
+
+
+
+===========================================================================================================================================
+
+Experiment -4 (Pruning) 
+
+
+Decision tree without pruning
+
+internal nodes   --->  425   
+leaves           --->  426   
+tree depth       --->  211   
+test accuracy    --->  69.2  
+train accuracy   --->  92.2  
+
+
+Decision tree after pruning
+
+
+
+
+internal nodes        --->  389   
+leaves                --->  390   
+new test accuracy     --->  72.4  
+new train accuracy    --->  92.0  
+
+
+
+internal nodes        --->  365   
+leaves                --->  366   
+new test accuracy     --->  73.3  
+new train accuracy    --->  91.2  
+
+
+
+internal nodes        --->  338   
+leaves                --->  339   
+new test accuracy     --->  74.0  
+new train accuracy    --->  90.3  
+
+
+
+internal nodes        --->  198   
+leaves                --->  199   
+new test accuracy     --->  74.6  
+new train accuracy    --->  89.4  
+
+
+
+internal nodes        --->  195   
+leaves                --->  196   
+new test accuracy     --->  74.9  
+new train accuracy    --->  89.2  
+
+
+
+internal nodes        --->  194   
+leaves                --->  195   
+new test accuracy     --->  75.1  
+new train accuracy    --->  89.2  
+
+
+
+internal nodes        --->  175   
+leaves                --->  176   
+new test accuracy     --->  75.3  
+new train accuracy    --->  88.7  
+
+
+
+internal nodes        --->  174   
+leaves                --->  175   
+new test accuracy     --->  75.4  
+new train accuracy    --->  88.6  
+
+
+
+internal nodes        --->  162   
+leaves                --->  163   
+new test accuracy     --->  75.5  
+new train accuracy    --->  88.2  
+  
+
+
+============================================================================================================================================
+
+Experiment -5 (Decision Forest)
+
+Effect of number of trees in the forest on train and test accuracies
+
+Number of trees  --->  Train accuracy   --->  Test accuracy
+1                --->  76.6             --->  67.1           
+3                --->  82.3             --->  70.1           
+5                --->  82.1             --->  71.4           
+10               --->  83.6             --->  71.1           
+15               --->  84.1             --->  71.1           
+20               --->  85.1             --->  72.1           
+25               --->  84.9             --->  72.3    
+
+===========================================================================================================================================
